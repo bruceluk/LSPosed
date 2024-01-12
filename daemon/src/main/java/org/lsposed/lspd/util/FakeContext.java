@@ -1,6 +1,6 @@
-package org.lsposed.lspd.util;
+package com.google.lspd.util;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.TAG;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -13,8 +13,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import org.lsposed.lspd.service.ConfigFileManager;
-import org.lsposed.lspd.service.PackageService;
+import com.google.lspd.service.ConfigFileManager;
+import com.google.lspd.service.PackageService;
 
 import hidden.HiddenApiBridge;
 

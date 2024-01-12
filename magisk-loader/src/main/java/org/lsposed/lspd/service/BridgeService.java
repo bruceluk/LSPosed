@@ -17,7 +17,7 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import static hidden.HiddenApiBridge.Binder_allowBlocking;
 import static hidden.HiddenApiBridge.Context_getActivityToken;
@@ -34,7 +34,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.lsposed.lspd.BuildConfig;
+import com.google.lspd.BuildConfig;
 
 public class BridgeService {
     private static final int TRANSACTION_CODE = ('_' << 24) | ('L' << 16) | ('S' << 8) | 'P';

@@ -17,10 +17,10 @@
  * Copyright (C) 2023 LSPosed Contributors-->
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import static android.content.Context.POWER_SERVICE;
-import static org.lsposed.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.TAG;
 
 import android.os.IBinder;
 import android.os.IPowerManager;

@@ -17,15 +17,15 @@
  * Copyright (C) 2022 LSPosed Contributors
  */
 
-package org.lsposed.lspd.core;
+package com.google.lspd.core;
 
 import android.os.IBinder;
 import android.os.Process;
 
-import org.lsposed.lspd.service.ILSPApplicationService;
-import org.lsposed.lspd.util.ParasiticManagerHooker;
-import org.lsposed.lspd.util.Utils;
-import org.lsposed.lspd.BuildConfig;
+import com.google.lspd.service.ILSPApplicationService;
+import com.google.lspd.util.ParasiticManagerHooker;
+import com.google.lspd.util.Utils;
+import com.google.lspd.BuildConfig;
 
 public class Main {
 

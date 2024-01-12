@@ -17,7 +17,7 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import android.annotation.SuppressLint;
 import android.os.Parcel;

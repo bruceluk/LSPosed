@@ -1,6 +1,6 @@
-package org.lsposed.lspd.util;
+package com.google.lspd.util;
 
-import static org.lsposed.lspd.util.SignInfo.CERTIFICATE;
+import static com.google.lspd.util.SignInfo.CERTIFICATE;
 
 import com.android.apksig.ApkVerifier;
 

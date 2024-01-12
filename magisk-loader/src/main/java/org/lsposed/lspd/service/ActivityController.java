@@ -1,6 +1,6 @@
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.BridgeService.TAG;
+import static com.google.lspd.service.BridgeService.TAG;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityThread;
@@ -20,7 +20,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import org.lsposed.lspd.BuildConfig;
+import com.google.lspd.BuildConfig;
 
 import java.io.FileDescriptor;
 import java.io.InputStream;

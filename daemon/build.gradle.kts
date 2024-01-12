@@ -88,7 +88,7 @@ android.applicationVariants.all {
         val sign = rootProject.project(":app").extensions
             .getByType(ApplicationExtension::class.java)
             .buildTypes.named(variantLowered).get().signingConfig
-        val outSrc = file("$outSrcDir/org/lsposed/lspd/util/SignInfo.java")
+        val outSrc = file("$outSrcDir/com/google/lspd/util/SignInfo.java")
         outputs.file(outSrc)
         doLast {
             outSrc.parentFile.mkdirs()
@@ -101,7 +101,7 @@ android.applicationVariants.all {
             )
             PrintStream(outSrc).print(
                 """
-                |package org.lsposed.lspd.util;
+                |package com.google.lspd.util;
                 |public final class SignInfo {
                 |    public static final byte[] CERTIFICATE = {${
                     certificateInfo.certificate.encoded.joinToString(",")

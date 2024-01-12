@@ -17,13 +17,13 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.PackageService.MATCH_ALL_FLAGS;
-import static org.lsposed.lspd.service.PackageService.PER_USER_RANGE;
-import static org.lsposed.lspd.service.ServiceManager.TAG;
-import static org.lsposed.lspd.service.ServiceManager.existsInGlobalNamespace;
-import static org.lsposed.lspd.service.ServiceManager.toGlobalNamespace;
+import static com.google.lspd.service.PackageService.MATCH_ALL_FLAGS;
+import static com.google.lspd.service.PackageService.PER_USER_RANGE;
+import static com.google.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.existsInGlobalNamespace;
+import static com.google.lspd.service.ServiceManager.toGlobalNamespace;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -53,8 +53,8 @@ import androidx.annotation.Nullable;
 
 import org.apache.commons.lang3.SerializationUtils;
 import org.lsposed.daemon.BuildConfig;
-import org.lsposed.lspd.models.Application;
-import org.lsposed.lspd.models.Module;
+import com.google.lspd.models.Application;
+import com.google.lspd.models.Module;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,6 +1,6 @@
-package org.lsposed.lspd;
+package com.google.lspd;
 
-import org.lsposed.lspd.service.ServiceManager;
+import com.google.lspd.service.ServiceManager;
 
 public class Main {
 

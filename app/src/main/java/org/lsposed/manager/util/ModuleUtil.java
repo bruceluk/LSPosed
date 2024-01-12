@@ -32,7 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Pair;
 
-import org.lsposed.lspd.models.UserInfo;
+import com.google.lspd.models.UserInfo;
 import org.lsposed.manager.App;
 import org.lsposed.manager.ConfigManager;
 import org.lsposed.manager.repo.RepoLoader;

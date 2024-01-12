@@ -18,7 +18,7 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.util;
+package com.google.lspd.util;
 
 import android.os.SystemProperties;
 import android.text.TextUtils;

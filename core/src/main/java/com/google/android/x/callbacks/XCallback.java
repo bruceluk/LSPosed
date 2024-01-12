@@ -22,7 +22,7 @@ package com.google.android.x.callbacks;
 
 import android.os.Bundle;
 
-import org.lsposed.lspd.deopt.PrebuiltMethodsDeopter;
+import com.google.lspd.deopt.PrebuiltMethodsDeopter;
 
 import java.io.Serializable;
 

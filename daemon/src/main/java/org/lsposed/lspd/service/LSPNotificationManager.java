@@ -1,6 +1,6 @@
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.TAG;
 
 import android.app.INotificationManager;
 import android.app.Notification;
@@ -25,7 +25,7 @@ import android.os.RemoteException;
 import android.util.Log;
 
 import org.lsposed.daemon.R;
-import org.lsposed.lspd.util.FakeContext;
+import com.google.lspd.util.FakeContext;
 
 import java.util.ArrayList;
 import java.util.Map;

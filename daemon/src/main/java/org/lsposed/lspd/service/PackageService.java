@@ -17,11 +17,11 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import static android.content.pm.ServiceInfo.FLAG_ISOLATED_PROCESS;
-import static org.lsposed.lspd.service.ServiceManager.TAG;
-import static org.lsposed.lspd.service.ServiceManager.existsInGlobalNamespace;
+import static com.google.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.existsInGlobalNamespace;
 
 import android.content.IIntentReceiver;
 import android.content.IIntentSender;
@@ -49,7 +49,7 @@ import android.util.Pair;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.lsposed.lspd.models.Application;
+import com.google.lspd.models.Application;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

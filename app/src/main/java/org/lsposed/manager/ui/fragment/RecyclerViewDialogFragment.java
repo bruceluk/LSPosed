@@ -30,7 +30,7 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.lsposed.lspd.models.UserInfo;
+import com.google.lspd.models.UserInfo;
 import org.lsposed.manager.R;
 import org.lsposed.manager.databinding.DialogTitleBinding;
 import org.lsposed.manager.databinding.SwiperefreshRecyclerviewBinding;

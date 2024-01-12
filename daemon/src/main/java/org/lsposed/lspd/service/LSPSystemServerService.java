@@ -17,10 +17,10 @@
  * Copyright (C) 2021 - 2022 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
-import static org.lsposed.lspd.service.ServiceManager.getSystemServiceManager;
+import static com.google.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.getSystemServiceManager;
 
 import android.os.Build;
 import android.os.IBinder;

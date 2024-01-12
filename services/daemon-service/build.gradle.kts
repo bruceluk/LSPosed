@@ -36,9 +36,9 @@ android {
         }
     }
 
-    aidlPackagedList += "org/lsposed/lspd/models/Module.aidl"
-    aidlPackagedList += "org/lsposed/lspd/models/PreloadedApk.aidl"
-    namespace = "org.lsposed.lspd.daemonservice"
+    aidlPackagedList += "com/google/lspd/models/Module.aidl"
+    aidlPackagedList += "com/google/lspd/models/PreloadedApk.aidl"
+    namespace = "com.google.lspd.daemonservice"
 }
 
 dependencies {

@@ -27,9 +27,9 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
 import android.util.Log;
 
-import org.lsposed.lspd.ILSPManagerService;
-import org.lsposed.lspd.models.Application;
-import org.lsposed.lspd.models.UserInfo;
+import com.google.lspd.ILSPManagerService;
+import com.google.lspd.models.Application;
+import com.google.lspd.models.UserInfo;
 import org.lsposed.manager.adapters.ScopeAdapter;
 import org.lsposed.manager.receivers.LSPManagerServiceHolder;
 

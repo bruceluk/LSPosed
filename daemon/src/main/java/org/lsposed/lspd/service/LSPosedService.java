@@ -17,14 +17,14 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import static android.content.Intent.EXTRA_UID;
-import static org.lsposed.lspd.service.LSPNotificationManager.SCOPE_CHANNEL_ID;
-import static org.lsposed.lspd.service.LSPNotificationManager.UPDATED_CHANNEL_ID;
-import static org.lsposed.lspd.service.PackageService.PER_USER_RANGE;
-import static org.lsposed.lspd.service.ServiceManager.TAG;
-import static org.lsposed.lspd.service.ServiceManager.getExecutorService;
+import static com.google.lspd.service.LSPNotificationManager.SCOPE_CHANNEL_ID;
+import static com.google.lspd.service.LSPNotificationManager.UPDATED_CHANNEL_ID;
+import static com.google.lspd.service.PackageService.PER_USER_RANGE;
+import static com.google.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.getExecutorService;
 
 import android.app.IApplicationThread;
 import android.app.IUidObserver;

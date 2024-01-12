@@ -5,21 +5,21 @@
 -keepclasseswithmembers,includedescriptorclasses class * {
     native <methods>;
 }
--keepclassmembers class org.lsposed.lspd.impl.LSPosedContext {
+-keepclassmembers class com.google.lspd.impl.LSPosedContext {
     public <methods>;
 }
--keepclassmembers class org.lsposed.lspd.impl.LSPosedHookCallback {
+-keepclassmembers class com.google.lspd.impl.LSPosedHookCallback {
     public <methods>;
 }
 -keep,allowoptimization,allowobfuscation @io.github.libxposed.api.annotations.* class * {
     @io.github.libxposed.api.annotations.BeforeInvocation <methods>;
     @io.github.libxposed.api.annotations.AfterInvocation <methods>;
 }
--keepclassmembers class org.lsposed.lspd.impl.LSPosedBridge$NativeHooker {
+-keepclassmembers class com.google.lspd.impl.LSPosedBridge$NativeHooker {
     <init>(java.lang.reflect.Executable);
     callback(...);
 }
--keepclassmembers class org.lsposed.lspd.impl.LSPosedBridge$HookerCallback {
+-keepclassmembers class com.google.lspd.impl.LSPosedBridge$HookerCallback {
     final *** beforeInvocation;
     final *** afterInvocation;
     HookerCallback(...);

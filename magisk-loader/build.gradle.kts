@@ -53,7 +53,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "org.lsposed.lspd"
+        applicationId = "com.google.lspd"
         multiDexEnabled = false
 
         buildConfigField(
@@ -106,7 +106,7 @@ android {
             }
         }
     }
-    namespace = "org.lsposed.lspd"
+    namespace = "com.google.lspd"
 }
 abstract class Injected @Inject constructor(val magiskDir: String) {
     @get:Inject

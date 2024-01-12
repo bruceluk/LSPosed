@@ -17,9 +17,9 @@
  * Copyright (C) 2021 - 2022 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.TAG;
 
 import android.os.IBinder;
 import android.os.Parcel;
@@ -31,7 +31,7 @@ import android.util.Pair;
 
 import androidx.annotation.NonNull;
 
-import org.lsposed.lspd.models.Module;
+import com.google.lspd.models.Module;
 
 import java.util.Collections;
 import java.util.List;

@@ -20,7 +20,7 @@
 
 package android.content.res;
 
-import static org.lsposed.lspd.nativebridge.ResourcesHook.rewriteXmlReferencesNative;
+import static com.google.lspd.nativebridge.ResourcesHook.rewriteXmlReferencesNative;
 import static com.google.android.x.XposedHelpers.decrementMethodDepth;
 import static com.google.android.x.XposedHelpers.findAndHookMethod;
 import static com.google.android.x.XposedHelpers.getBooleanField;

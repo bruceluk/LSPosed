@@ -17,9 +17,9 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.PackageService.PER_USER_RANGE;
+import static com.google.lspd.service.PackageService.PER_USER_RANGE;
 
 import android.content.AttributionSource;
 import android.os.Binder;
@@ -33,7 +33,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 
 import org.lsposed.daemon.BuildConfig;
-import org.lsposed.lspd.models.Module;
+import com.google.lspd.models.Module;
 
 import java.io.IOException;
 import java.util.ArrayList;

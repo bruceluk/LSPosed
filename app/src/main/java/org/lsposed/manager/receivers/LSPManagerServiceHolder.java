@@ -24,7 +24,7 @@ import android.os.Process;
 import android.os.RemoteException;
 import android.system.Os;
 
-import org.lsposed.lspd.ILSPManagerService;
+import com.google.lspd.ILSPManagerService;
 
 public class LSPManagerServiceHolder implements IBinder.DeathRecipient {
     private static LSPManagerServiceHolder holder = null;

@@ -17,13 +17,13 @@
  * Copyright (C) 2022 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.ILSPManagerService.DEX2OAT_CRASHED;
-import static org.lsposed.lspd.ILSPManagerService.DEX2OAT_MOUNT_FAILED;
-import static org.lsposed.lspd.ILSPManagerService.DEX2OAT_OK;
-import static org.lsposed.lspd.ILSPManagerService.DEX2OAT_SELINUX_PERMISSIVE;
-import static org.lsposed.lspd.ILSPManagerService.DEX2OAT_SEPOLICY_INCORRECT;
+import static com.google.lspd.ILSPManagerService.DEX2OAT_CRASHED;
+import static com.google.lspd.ILSPManagerService.DEX2OAT_MOUNT_FAILED;
+import static com.google.lspd.ILSPManagerService.DEX2OAT_OK;
+import static com.google.lspd.ILSPManagerService.DEX2OAT_SELINUX_PERMISSIVE;
+import static com.google.lspd.ILSPManagerService.DEX2OAT_SEPOLICY_INCORRECT;
 
 import android.net.LocalServerSocket;
 import android.os.Build;

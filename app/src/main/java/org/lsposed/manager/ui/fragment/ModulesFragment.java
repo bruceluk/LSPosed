@@ -69,7 +69,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import org.lsposed.lspd.models.UserInfo;
+import com.google.lspd.models.UserInfo;
 import org.lsposed.manager.App;
 import org.lsposed.manager.ConfigManager;
 import org.lsposed.manager.R;

@@ -1,7 +1,7 @@
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.LSPModuleService.FILES_DIR;
-import static org.lsposed.lspd.service.PackageService.PER_USER_RANGE;
+import static com.google.lspd.service.LSPModuleService.FILES_DIR;
+import static com.google.lspd.service.PackageService.PER_USER_RANGE;
 
 import android.os.Binder;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
 import android.util.Log;
 
-import org.lsposed.lspd.models.Module;
+import com.google.lspd.models.Module;
 
 import java.util.Map;
 import java.util.Set;

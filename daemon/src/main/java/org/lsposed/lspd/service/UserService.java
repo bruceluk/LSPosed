@@ -17,9 +17,9 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.TAG;
 
 import android.content.Context;
 import android.content.pm.UserInfo;
@@ -30,7 +30,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.util.Log;
 
-import org.lsposed.lspd.util.Utils;
+import com.google.lspd.util.Utils;
 
 import java.util.LinkedList;
 import java.util.List;

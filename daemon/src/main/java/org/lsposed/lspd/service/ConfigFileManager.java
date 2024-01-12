@@ -17,10 +17,10 @@
  * Copyright (C) 2021 - 2022 LSPosed Contributors
  */
 
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
-import static org.lsposed.lspd.service.ServiceManager.TAG;
-import static org.lsposed.lspd.service.ServiceManager.toGlobalNamespace;
+import static com.google.lspd.service.ServiceManager.TAG;
+import static com.google.lspd.service.ServiceManager.toGlobalNamespace;
 
 import android.content.res.AssetManager;
 import android.content.res.Resources;
@@ -38,9 +38,9 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 
 import org.lsposed.daemon.BuildConfig;
-import org.lsposed.lspd.models.PreLoadedApk;
-import org.lsposed.lspd.util.InstallerVerifier;
-import org.lsposed.lspd.util.Utils;
+import com.google.lspd.models.PreLoadedApk;
+import com.google.lspd.util.InstallerVerifier;
+import com.google.lspd.util.Utils;
 
 import java.io.BufferedReader;
 import java.io.File;

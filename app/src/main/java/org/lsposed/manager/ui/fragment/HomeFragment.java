@@ -40,7 +40,7 @@ import androidx.core.text.HtmlCompat;
 import androidx.core.view.MenuProvider;
 import androidx.fragment.app.DialogFragment;
 
-import org.lsposed.lspd.ILSPManagerService;
+import com.google.lspd.ILSPManagerService;
 import org.lsposed.manager.BuildConfig;
 import org.lsposed.manager.ConfigManager;
 import org.lsposed.manager.R;

@@ -61,7 +61,7 @@ inline bool RegisterNativeMethodsInternal(JNIEnv *env,
 #define LSP_NATIVE_METHOD(className, functionName, signature)                \
   { #functionName,                                                       \
     signature,                                                           \
-    _NATIVEHELPER_JNI_MACRO_CAST(void*) (Java_org_lsposed_lspd_nativebridge_## className ## _ ## functionName) \
+    _NATIVEHELPER_JNI_MACRO_CAST(void*) (Java_com_google_lspd_nativebridge_## className ## _ ## functionName) \
   }
 #endif
 
@@ -69,7 +69,7 @@ inline bool RegisterNativeMethodsInternal(JNIEnv *env,
 
 #ifndef LSP_DEF_NATIVE_METHOD
 #define LSP_DEF_NATIVE_METHOD(ret, className, functionName, ...)                \
-  extern "C" ret Java_org_lsposed_lspd_nativebridge_## className ## _ ## functionName (JNI_START, ##  __VA_ARGS__)
+  extern "C" ret Java_com_google_lspd_nativebridge_## className ## _ ## functionName (JNI_START, ##  __VA_ARGS__)
 #endif
 
 #define REGISTER_LSP_NATIVE_METHODS(class_name) \
@@ -99,7 +99,7 @@ inline int UnhookFunction(void *original) {
 
 inline std::string GetNativeBridgeSignature() {
     const auto &obfs_map = ConfigBridge::GetInstance()->obfuscation_map();
-    static auto signature = obfs_map.at("org.lsposed.lspd.nativebridge.");
+    static auto signature = obfs_map.at("com.google.lspd.nativebridge.");
     return signature;
 }
 

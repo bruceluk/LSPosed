@@ -1,4 +1,4 @@
-package org.lsposed.lspd.service;
+package com.google.lspd.service;
 
 import android.os.SharedMemory;
 
