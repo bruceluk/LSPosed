@@ -18,7 +18,7 @@
  * Copyright (C) 2021 - 2022 LSPosed Contributors
  */
 
-package de.robv.android.xposed;
+package com.google.android.x;
 
 import static org.lsposed.lspd.core.ApplicationServiceClient.serviceClient;
 
@@ -53,7 +53,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-import de.robv.android.xposed.services.FileResult;
+import com.google.android.x.services.FileResult;
 
 /**
  * This class is basically the same as SharedPreferencesImpl from AOSP, but

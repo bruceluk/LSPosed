@@ -27,9 +27,9 @@ import androidx.annotation.NonNull;
 import org.lsposed.lspd.impl.LSPosedContext;
 import org.lsposed.lspd.util.Hookers;
 
-import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedInit;
-import de.robv.android.xposed.callbacks.XC_LoadPackage;
+import com.google.android.x.XposedBridge;
+import com.google.android.x.XposedInit;
+import com.google.android.x.callbacks.XC_LoadPackage;
 import io.github.libxposed.api.XposedInterface;
 import io.github.libxposed.api.XposedModuleInterface;
 import io.github.libxposed.api.annotations.BeforeInvocation;

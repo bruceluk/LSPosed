@@ -18,7 +18,7 @@
  * Copyright (C) 2021 - 2022 LSPosed Contributors
  */
 
-package de.robv.android.xposed;
+package com.google.android.x;
 
 import android.app.ActivityThread;
 import android.content.res.Resources;
@@ -42,8 +42,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-import de.robv.android.xposed.callbacks.XC_InitPackageResources;
-import de.robv.android.xposed.callbacks.XC_LoadPackage;
+import com.google.android.x.callbacks.XC_InitPackageResources;
+import com.google.android.x.callbacks.XC_LoadPackage;
 import io.github.libxposed.api.XposedInterface;
 
 /**

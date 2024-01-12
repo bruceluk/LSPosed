@@ -2,7 +2,7 @@ package org.lsposed.lspd.hooker;
 
 import android.app.ActivityThread;
 
-import de.robv.android.xposed.XposedInit;
+import com.google.android.x.XposedInit;
 import io.github.libxposed.api.XposedInterface;
 import io.github.libxposed.api.annotations.AfterInvocation;
 import io.github.libxposed.api.annotations.XposedHooker;
