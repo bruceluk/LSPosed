@@ -67,8 +67,8 @@ import com.google.android.x.XposedInit;
 import com.google.android.x.callbacks.XC_LayoutInflated;
 import com.google.android.x.callbacks.XC_LayoutInflated.LayoutInflatedParam;
 import com.google.android.x.callbacks.XCallback;
-import xposed.dummy.XResourcesSuperClass;
-import xposed.dummy.XTypedArraySuperClass;
+import xx.dd.XResourcesSuperClass;
+import xx.dd.XTypedArraySuperClass;
 
 /**
  * {@link android.content.res.Resources} subclass that allows replacing individual resources.

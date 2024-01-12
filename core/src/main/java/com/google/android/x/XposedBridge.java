@@ -120,8 +120,8 @@ public final class XposedBridge {
             ClassLoader myCL = XposedBridge.class.getClassLoader();
             assert myCL != null;
             dummyClassLoader = ResourcesHook.buildDummyClassLoader(myCL.getParent(), resClass.getName(), taClass.getName());
-            dummyClassLoader.loadClass("xposed.dummy.XResourcesSuperClass");
-            dummyClassLoader.loadClass("xposed.dummy.XTypedArraySuperClass");
+            dummyClassLoader.loadClass("xx.dd.XResourcesSuperClass");
+            dummyClassLoader.loadClass("xx.dd.XTypedArraySuperClass");
             XposedHelpers.setObjectField(myCL, "parent", dummyClassLoader);
         } catch (Throwable throwable) {
             XposedBridge.log(throwable);
